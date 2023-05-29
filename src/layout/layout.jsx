@@ -8,7 +8,7 @@ import Portfolio from "../pages/portfolio/portfolio"
 import Footer from "../components/footer/footer"
 import Contact from "../pages/contact/contact"
 
-
+//test
 export default function Layout() {
   return (
     <div className='layoutContainer'>
