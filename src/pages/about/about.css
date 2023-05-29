@@ -1,0 +1,117 @@
+.aboutMainContainer {
+  display: flex;
+  /* background: linear-gradient(rgb(0, 0, 0), white, white, white); */
+  background: url("../../../src/img/blk.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.aboutTitleBox{
+  display: flex;
+  
+}
+
+.aboutTitle{
+  display: flex;
+  align-items: center;
+  transition: color 1s ease-in-out, background-color 1s ease-in-out, border-color .15s ease-in-out;
+}
+
+.aboutTitle.left{
+  color: #f7ba2b;
+  padding-right: 200px;
+}
+
+.aboutTitle.right{
+  color: #ea5358;
+  padding-left: 200px;
+
+}
+
+
+.card {
+  display: flex;
+  --background: linear-gradient(to left, #ea5358 0%, #f7ba2b 100%);
+  width: 12rem;
+  height: 35vh;
+  max-height: 35vh;
+  padding: 5px;
+  border-radius: 1rem;
+  overflow: visible;
+  background: #f7ba2b;
+  background: var(--background);
+  position: relative;
+  z-index: 1;
+  margin: 1.5rem;
+  flex-wrap: wrap;
+  justify-self: center;
+  align-self: center;
+ }
+
+ .card::after {
+  position: absolute;
+  content: "";
+  top: 30px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  transform: scale(.9 );
+  filter: blur(40px);
+  background: #f7ba2b;
+  background: var(--background);
+  transition: opacity 2s;
+ }
+
+.cardInfo {
+  --color: #181818;
+  background: var(--color);
+  color: var(--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  overflow: visible;
+  border-radius: .7rem;
+}
+
+.card .aboutTitleDes {
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.card:hover::after {
+  opacity: 0;
+ }
+
+.card:hover .cardInfo {
+  color: #f7ba2b;
+  transition: color 1s;
+}
+
+.aboutTitleBox:hover h1{
+  color: rgb(0, 162, 255);
+  transition: color 1s;
+}
+
+
+@media (max-width: 1199px) {
+  .card {
+    transition: all 1s;
+    transition: all ease-in-out 1s;
+  }
+
+}

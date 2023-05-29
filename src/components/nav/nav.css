@@ -1,0 +1,137 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer{
+    display: grid;
+}
+
+.navMainContainer {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0; 
+    width: 20%; 
+    width: 14rem;
+    height: 100vh;
+    transition: all ease-in-out 0.5s;
+    z-index: 2;
+    padding: 0 15px;
+    background: linear-gradient(-45deg, #00e1ff ,#003949, #001d25, #000000, #001920);
+	background-size: 270% 400%;
+	animation: gradient 7s ease-in-out infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.upperContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.outerProfileCircle {
+    display: flex;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerProfileCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background: url(../../img/selfie.jpg)center;
+    background-size: cover;
+}
+
+.navNameContainer {}
+
+.navName {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.socailMediaContainer {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMediaTag {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.socialMediaTag img {
+    border-radius: 100%;
+}
+
+.socialMediaTag img:hover {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    transition: color .2s ease-in-out, background-color 1s ease-in-out, border-color .15s ease-in-out;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    animation: glowing 2s infinite;
+}
+
+.navLinkContainer {}
+
+.navLink {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 60px;
+    color: rgb(73, 73, 73);
+    transition: color .2s ease-in-out, background-color 1s ease-in-out, border-color .15s ease-in-out;
+
+}
+
+.navLink:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+    .navMainContainer {
+      left: -300px;
+    }
+  
+  }
