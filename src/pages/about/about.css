@@ -103,7 +103,7 @@
 }
 
 .aboutTitleBox:hover h1{
-  color: rgb(0, 162, 255);
+  color: rgb(179, 255, 0);
   transition: color 1s;
 }
 

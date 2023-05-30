@@ -11,7 +11,7 @@
     grid-template-rows: min-content repeat(6, 1fr);
     /* grid-template: 'nav' min-content 1fr / min-content repeat(5, 1fr)
                     '' 1fr / min-content 1fr; */
-    background: rgb(0, 0, 0);
+    /* background: rgb(0, 0, 0); */
 }
 
 .layoutContainer nav{

@@ -1,0 +1,72 @@
+.resumeContainer{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    background: rgb(255, 255, 255);
+}
+
+.resumeMainContainer{
+    display: grid;
+    width: 80%;
+}
+
+.resumeSubContainer{
+    display: grid;
+    grid-template-columns: min-content 2fr;
+    grid-template-rows: min-content repeat(6, 1fr);
+}
+
+
+.resumeHeading{
+    text-transform: capitalize;
+    grid-column: 1 / max-content;
+    grid-row: 1 ;
+    padding: 2rem 5rem;
+    position: relative;
+    /* left: 7rem; */
+}
+
+
+.resumeTitle1{
+    border: red dotted 1px;
+    grid-column: 1 ;
+    grid-row: 2;
+}
+.resumeTitle2{
+    border: red dotted 1px;
+    grid-column: 1 / min-content;
+    grid-row: 3 ;
+}
+.resumeTitle3{
+    border: red dotted 1px;
+    grid-column: 1 ;
+    grid-row: 4 ;
+}
+
+.resumeDes1{
+    border: red dotted 1px;
+    grid-column: 2 / min-content ;
+    grid-row: 2 ;
+}
+.resumeDes2{
+    grid-column: 2 ;
+    grid-row: 4 ;
+}
+.resumeDes3{
+    grid-column: 2 ;
+    grid-row: 5 ;
+}
+
+
+
+.skillsContainer{
+    border: red dotted 1px;
+}
+
+.skillTitle{
+    border: red dotted 1px;
+}
+
+.skillItems{
+    border: red dotted 1px;
+}
