@@ -2,7 +2,7 @@
   display: flex;
   /* background: linear-gradient(rgb(0, 0, 0), white, white, white); */
   background: url("../../../src/img/blk.jpg");
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: repeat-x;
   padding-top: 10rem;

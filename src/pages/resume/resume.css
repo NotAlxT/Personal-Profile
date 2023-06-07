@@ -1,33 +1,42 @@
 .resumeContainer {
     display: flex;
     justify-content: center;
-    padding: 10%;
-    background: rgb(255, 255, 255);
+    background: url('../../img/darkwood.jpg')center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: antiquewhite;
 }
 
 .resumeMainContainer {
     display: grid;
     width: 80%;
+    justify-content: center;
 }
 
 .resumeSubContainer {
     display: grid;
     grid-template-columns: min-content 2fr;
-    grid-template-rows: min-content repeat(6, 1fr);
+    grid-template-rows: min-content repeat(4, min-content);
 }
 
 .resumeHeading {
     text-transform: capitalize;
     grid-column: 1 / max-content;
     grid-row: 1;
-    padding: 2rem 5rem;
+    justify-self: center;
+    padding: 7rem 0 4rem 0;
     position: relative;
-    /* left: 7rem; */
+    font-size: 3rem;
+    background-image: linear-gradient(45deg, rgb(236, 237, 238) 10%, rgb(0, 114, 245) 60%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .resumeBox1 {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 2 ;
 }
 
 .resumeBox2 {
@@ -45,9 +54,27 @@
     grid-row: 5;
 }
 
+.resumeTitleHeading{
+    padding-top: 2rem;
+    background-image: linear-gradient(45deg, rgb(236, 237, 238) 10%, rgb(0, 114, 245) 60%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.resumeBox1, .resumeBox2, .resumeBox3, .resumeBox4{
+    padding-left: 2rem;
+}
+
+.resumeBoxD1, .resumeBoxD2, .resumeBoxD3, .resumeBoxD4{
+    margin: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10%;
+}
+
 .resumeBoxD1 {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 2 ;
 }
 
 .resumeBoxD2 {
@@ -65,34 +92,19 @@
     grid-row: 5;
 }
 
-.resumeTitle1 {
+.resumeTitle1,.resumeTitle2,.resumeTitle3, .skillTitle {
     position: sticky;
     top: 0;
 }
 
-.resumeTitle2 {
-    position: sticky;
-    top: 0;
+.resumeDes1, .resumeDes2, .resumeDes3, .resumeDes4{
+    padding-bottom: 2rem;
 }
 
-.resumeTitle3 {
-    position: sticky;
-    top: 0;
+.des1{
+    text-align: center;
 }
 
-/* .resumeDes1 {}
-
-.resumeDes2 {}
-
-.resumeDes3 {} */
-
-
-
-
-.skillTitle {
-    position: sticky;
-    top: 0;
-}
-
-.skillItems {
+.des2{
+    text-align: center;
 }

@@ -20,7 +20,7 @@
     transition: all ease-in-out 0.5s;
     z-index: 2;
     padding: 0 15px;
-    background: linear-gradient(-45deg, #00e1ff ,#003949, #001d25, #000000, #001920);
+    background: linear-gradient(-45deg, #00e1ff ,#003949, #ffffff, #000000, #001920);
 	background-size: 270% 400%;
 	animation: gradient 7s ease-in-out infinite;
 }
@@ -48,7 +48,7 @@
     display: flex;
     height: 120px;
     width: 120px;
-    background-color: rgb(58, 58, 58);
+    background-color: rgba(255, 255, 255,.5);
     border-radius: 100%;
     justify-content: center;
     align-items: center;
@@ -89,9 +89,9 @@
     display: flex;
     height: 40px;
     width: 40px;
-    background-color: rgb(58, 58, 58);
     border-radius: 100%;
     margin: 0 10px;
+    
 }
 
 .socialMediaTag img {

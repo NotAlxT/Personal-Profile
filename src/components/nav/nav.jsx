@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './nav.css'
-import LinkedInImage from '../../img/LinkedIn.png'
+import LinkedInImage from '../../img/Daco_1015960.png'
 import GitHubImage from '../../img/Github.png'
 import { Icon } from '@iconify/react';
 import Selfie from '../../img/selfie.jpg'
@@ -23,7 +23,7 @@ export default function Nav() {
           <h1 className='navName'> Alex Tran </h1>
         </div>
         <div className='socailMediaContainer'>
-          <span className='socialMediaTag' ><img src={LinkedInImage} /></span>
+          <span className='socialMediaTag'><img src={LinkedInImage} /></span>
           <span className='socialMediaTag'><img src={GitHubImage} /></span>
         </div>
         <div className='navLinkContainer'>
