@@ -5,8 +5,8 @@ import Home from "../pages/home/home"
 import About from "../pages/about/about"
 import Resume from "../pages/resume/resume"
 import Portfolio from "../pages/portfolio/portfolio"
-import Footer from "../components/footer/footer"
-import Contact from "../pages/contact/contact"
+// import Footer from "../components/footer/footer"
+// import Contact from "../pages/contact/contact"
 
 export default function Layout() {
   return (
@@ -19,10 +19,6 @@ export default function Layout() {
         <Home />
       </home>
 
-      <about>
-        <About />
-      </about>
-
       <resume>
         <Resume />
       </resume>
@@ -30,14 +26,11 @@ export default function Layout() {
       <portfolio>
         <Portfolio />
       </portfolio>
+      
+      <about>
+        <About />
+      </about>
 
-      <contact>
-        <Contact />
-      </contact>
-
-      <footer>
-        <Footer />
-      </footer> 
     </div>
   )
 }

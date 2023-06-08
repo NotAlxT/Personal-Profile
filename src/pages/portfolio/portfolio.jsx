@@ -7,38 +7,49 @@ import { useRef, useEffect, useState } from 'react';
 import image1 from '../../img/bg1.jpg'
 import image2 from '../../img/bg2.jpg'
 import image3 from '../../img/bg3.jpg'
-
+import image4 from '../../img/image1.png'
 
 export default function Portfolio() {
 
+  const sliderContainerRef = useRef(null);
+
+  const scrollSliderLeft = () => {
+    const tabsList = sliderContainerRef.current;
+    const scrollAmount = -tabsList.clientWidth;
+    tabsList.scrollBy({
+      left: scrollAmount,
+      behavior: 'smooth',
+    })
+  }
+
+  const scrollSliderRight = () => {
+    const tabsList = sliderContainerRef.current;
+    const scrollAmount = tabsList.clientWidth;
+    tabsList.scrollBy({
+      left: scrollAmount,
+      behavior: 'smooth',
+    })
+  }
+
+  const handleScrollEnd = () => {
+    const tabsList = sliderContainerRef.current;
+    if (tabsList.scrollLeft + tabsList.clientWidth >= tabsList.scrollWidth) {
+      tabsList.scrollTo({
+        left: 0,
+        behavior: 'smooth',
+      });
+    }
+  }
+
   return (
-    <div id='portfolio'>
-
-      {/* <motion.div className='portfolioContainer'>
-        <motion.div className='portfolioMainContainer'>
-          <motion.div className='portfolioSlider'>
-            {images.map(image => {
-              return (
-
-                <motion.div  className='sliderChild'>
-                  <img src={image} alt="" />
-                  
-                </motion.div>
-
-              );
-            })}
-          </motion.div><div className='sliderDes'>hello</div>
-        </motion.div>
-      </motion.div> */}
-
-      <div className="portfolioContainer">
-        <btn className="sliderLeft"><Icon className='sliderIcon' icon="ep:arrow-left" /></btn>
+      <div className="portfolioContainer" id='portfolio'>
+        <btn className="sliderLeft" onClick={scrollSliderLeft}><Icon className='sliderIcon' icon="ep:arrow-left" /></btn>
         <div className="portfolioMainContainer">
-          <div className="portfolioSlider">
+          <div className="portfolioSlider" ref={sliderContainerRef} onScroll={handleScrollEnd}>
 
             <div className="sliderChild">
               <img className="sliderImg" src={image1}></img>
-              <div className="sliderDes">des</div>
+              <div className="sliderDes">hello im here</div>
             </div>
 
             <div className="sliderChild">
@@ -50,18 +61,18 @@ export default function Portfolio() {
               <div className="sliderDes">des</div>
             </div>
             <div className="sliderChild">
-              <img className="sliderImg " src={image1}></img>
+              <img className="sliderImg " src={image4}></img>
               <div className="sliderDes">des</div>
             </div>
             <div className="sliderChild">
               <img className="sliderImg " src={image2}></img>
               <div className="sliderDes">des</div>
             </div>
-
+      
           </div>
         </div>
-        <btn className="sliderRight"><Icon className='sliderIcon' icon="ep:arrow-right" /></btn>
+        <btn className="sliderRight" onClick={scrollSliderRight}><Icon className='sliderIcon' icon="ep:arrow-right" /></btn>
       </div>
-    </div>
+    
   )
 }

@@ -13,8 +13,8 @@
     display: flex;
     justify-content: center;
     background: rgba(255, 255, 255, .1);
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
     border-radius: 10%;
     overflow-x: hidden;
 }
@@ -29,6 +29,11 @@
     overflow-y: hidden;
     overscroll-behavior-inline: contain;
     scroll-snap-type: x mandatory;
+    
+}
+
+.portfolioSlider::-webkit-scrollbar{
+    display: none;
 }
 
 .sliderChild {
@@ -49,15 +54,17 @@
     object-fit: cover;
     object-position: center;
     transition: .5s ease-in-out;
+    
 }
 
 .sliderChild div {
     font-size: 2rem;
+    color: azure;
     width: 90%;
     height: 30%;
 
     padding: 1rem;
-    background: linear-gradient(to bottom, rgba(255, 252, 252, 0.3),rgba(0, 0, 0, 0.3));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .5),rgba(206, 206, 206, 0.6));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,6 +73,7 @@
     position: absolute;
     bottom: 1rem;
     border-radius: 2rem;
+    
 }
 
 .sliderChild div:hover{

@@ -85,7 +85,7 @@
     align-items: center;
 }
 
-.socialMediaTag {
+.socialMediaTag img{
     display: flex;
     height: 40px;
     width: 40px;
