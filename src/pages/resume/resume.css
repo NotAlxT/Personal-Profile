@@ -1,7 +1,7 @@
 .resumeContainer {
     display: flex;
     justify-content: center;
-    background: url('../../img/darkwood.jpg')center;
+    background: url('../../img/bg2.jpg')center;
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -69,7 +69,12 @@
     margin: 2rem;
     padding: 2rem 2rem 2rem 2rem;
     background-color: rgba(255, 255, 255, 0.15);
-    border-radius: 10%;
+    border-radius: 3rem;
+    transition: .1s ease-in-out;
+}
+.resumeBoxD1:hover,.resumeBoxD2:hover,.resumeBoxD3:hover,.resumeBoxD4:hover {
+    transform: scale(1.1);
+    transition: .1s ease-in-out;
 }
 
 .resumeBoxD1 {

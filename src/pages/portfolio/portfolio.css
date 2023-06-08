@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(-45deg, black,white,rgb(92, 92, 92));
+    background: url('../../img/bg3.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -24,37 +27,52 @@
     width: 100%;
     align-items: center;
     overflow-y: hidden;
-    overscroll-behavior-inline: contain; 
+    overscroll-behavior-inline: contain;
     scroll-snap-type: x mandatory;
 }
 
-.sliderChild{
+.sliderChild {
     display: flex;
     scroll-snap-align: start;
     justify-content: center;
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    position: relative;
     /* overscroll-behavior-inline: contain;  */
 }
 
-.sliderChild img{
+.sliderChild img {
     width: 100%;
     height: 100%;
+    /* aspect-ratio: 1/1; */
+    object-fit: cover;
+    object-position: center;
+    transition: .5s ease-in-out;
 }
 
-.sliderChild div{
-    width: 100%;
-    height: 40%;
+.sliderChild div {
+    font-size: 2rem;
+    width: 90%;
+    height: 30%;
+
+    padding: 1rem;
+    background: linear-gradient(to bottom, rgba(255, 252, 252, 0.3),rgba(0, 0, 0, 0.3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 1rem;
+    border-radius: 2rem;
 }
 
-
-
-/* .sliderDes{
-    position: relative;
-    justify-self: center;
-    align-self: flex-end;
+.sliderChild div:hover{
+    opacity: 1;
+    transform: scale(1.1);
 }
+
 
 .sliderRight, .sliderLeft{
     position: sticky;
@@ -65,11 +83,16 @@
     color: azure;
 }
 
+.sliderIcon{
+    transition: 1s ease-in-out;
+    animation: glowing 5s infinite;
+}
+
 .sliderIcon:hover{
     box-shadow: 0 0 2rem rgb(255, 255, 255);
     border-radius: 100%;
-    transition: 2s ease-in-out;
+    transition: .5s ease-in-out;
     animation: glowing 5s infinite;
     background-color: rgba(255, 255, 255, .5);
     color: black;
-} */
+}

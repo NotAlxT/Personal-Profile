@@ -43,8 +43,9 @@ export default function Resume() {
               <p className='resumeTitleItems des3'>Personal Profile/ Resume</p>
               <p className='resumeTitleItems des4'>
                 <ul>
-                  <li> Personal portfolio built on React with focus on Css.</li>
-                  <li> ie. calculator, weather app, task list, etc...</li>
+                  <li> Currently building a portfolio to showcase self</li>
+                  <li> Language focuses on JavaScript and CSS</li>
+                  <li> Framework focuses on React</li>
                 </ul>
               </p>
             </div>
@@ -81,11 +82,10 @@ export default function Resume() {
               <p className='resumeTitleItems des3'>Fuji@InkBlock, Puttshack</p>
               <p className='resumeTitleItems des4'>
                 <ul>
-                  <li> item 1</li>
-                  <li> item 2</li>
-                  <li> item 3</li>
-                  <li> item 4</li>
-                  <li> item 5</li>
+                  <li> Years of fast pace, high-stress timely management with excellent social skills</li>
+                  <li> Seasoned leader & trainer</li>
+                  <li> Tasked with the training of new associates</li>
+                  <li> Organized schedules and supply</li>
                 </ul>
               </p>
             </div>
@@ -95,11 +95,10 @@ export default function Resume() {
               <p className='resumeTitleItems des3'>Keller Williams Realty</p>
               <p className='resumeTitleItems des4'>
                 <ul>
-                  <li> item 1</li>
-                  <li> item 2</li>
-                  <li> item 3</li>
-                  <li> item 4</li>
-                  <li> item 5</li>
+                  <li> Experienced with handling multiple high-value assets</li>
+                  <li> Comfortable with negotiations & closing deals</li>
+                  <li> Built own personal portfolio of four properties</li>
+                  <li> Manages Rental Properties in multiple states</li>
                 </ul>
               </p>
             </div>
@@ -109,11 +108,9 @@ export default function Resume() {
               <p className='resumeTitleItems des3'>Solider/Engineer</p>
               <p className='resumeTitleItems des4'>
                 <ul>
-                  <li> item 1</li>
-                  <li> item 2</li>
-                  <li> item 3</li>
-                  <li> item 4</li>
-                  <li> item 5</li>
+                  <li> Trained to handle high-stress environments with efficiency and safety</li>
+                  <li> Leadership role in tactical & logistical environments</li>
+                  <li> Experienced in problem-solving with complex hierarchy structures </li>
                 </ul>
               </p>
             </div>
