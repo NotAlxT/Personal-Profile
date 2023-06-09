@@ -1,5 +1,6 @@
 import React from 'react'
 import '../about/about.css'
+import LinkedInImage from '../../img/LinkedInImg.png'
 
 export default function About() {
     return (
@@ -35,37 +36,23 @@ export default function About() {
                 <section className='aboutTitleBox'>
                     <div class="card card-4">
                         <div class="cardInfo">
-                            <span className="aboutTitleDes">About</span>
+                            <span className="aboutTitleDes">Jan 25, 1996</span>
                         </div>
                     </div>
-                    <h1 className='aboutTitle right'>test</h1>
+                    <h1 className='aboutTitle right'>Birthday</h1>
                 </section>
 
                 <section className='aboutTitleBox'>
-                    <h1 className='aboutTitle left'>test</h1>
+                    <h1 className='aboutTitle left'>Code</h1>
                     <div class="card card-5">
                         <div class="cardInfo">
-                            <span className="aboutTitleDes">About</span>
+                            <span className="aboutTitleDes">
+                                <a href="https://github.com/NotAlxT/Personal-Profile" target='_blank'>Click me for code
+                                </a>
+                            </span>
                         </div>
                     </div>
                 </section>
-
-                {/* <section >
-                    <div className='aboutBox ' >
-                        <h3 className="aboutPersonalInfo">Full-Stack Developer</h3>
-                        <div className='aboutPersonalPoints'>
-                            <ul>
-                                <li>Birthday</li>
-                                <li>Age</li>
-                                <li>Website</li>
-                                <li>Phone</li>
-                                <li>Email</li>
-                                <li>City</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
- */}
 
             </div>
         </div>

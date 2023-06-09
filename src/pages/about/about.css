@@ -75,7 +75,7 @@
   transition: all 1s ease-in-out;
  }
 
-.cardInfo {
+.cardInfo, .cardInfo a {
   --color: #181818;
   background: var(--color);
   color: var(--color);
@@ -86,32 +86,37 @@
   height: 90%;
   overflow: visible;
   border-radius: .7rem;
+  transition: all 1s ease-in-out;
 }
 
-.card .aboutTitleDes {
+.aboutTitleDes, .aboutTitleDes a{
   font-weight: bold;
   letter-spacing: .1em;
   text-align: center;
 }
 
-.card:hover::after {
+.card:hover::after{
   opacity: 0;
+  transition: all 1s ease-in-out;
  }
+
  .card:hover{
   transition: opacity 2s; transform: scale(1.1);
   transition: all 1s ease-in-out;
 }
  
 
-.card:hover .cardInfo {
+.card:hover .cardInfo , .card:hover .cardInfo a{
   color: #f7ba2b;
-  transition: color 1s;
+  transition: all 1s ease-in-out;
 }
 
 .aboutTitleBox:hover h1{
   color: #ea5358;
-  transition: color 1s;
+  transition: all 1s ease-in-out;
 }
+
+
 
 
 @media (max-width: 1199px) {

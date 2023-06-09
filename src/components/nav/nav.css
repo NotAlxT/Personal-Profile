@@ -17,14 +17,17 @@
     width: 20%; 
     width: 14rem;
     height: 100vh;
-    transition: all ease-in-out 0.5s;
     z-index: 2;
     padding: 0 15px;
     background: linear-gradient(-45deg, #00e1ff ,#003949, #ffffff, #000000, #001920);
 	background-size: 270% 400%;
 	animation: gradient 7s ease-in-out infinite;
+    transition: all .1s ease-in-out;
 }
-
+.navMainContainer:hover{
+    transform: scale(1.03);
+    transition: all .1s ease-in-out;
+}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
