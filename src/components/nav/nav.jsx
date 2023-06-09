@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
 import './nav.css'
 import LinkedInImage from '../../img/LinkedInImg.png'
 import GitHubImage from '../../img/Github.png'
