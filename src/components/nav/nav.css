@@ -46,9 +46,9 @@
 
 .outerProfileCircle {
     display: flex;
-    height: 120px;
-    width: 120px;
-    background-color: rgba(255, 255, 255,.5);
+    height: 110px;
+    width: 110px;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.3),rgb(255, 255, 255));
     border-radius: 100%;
     justify-content: center;
     align-items: center;
@@ -61,8 +61,10 @@
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    background: url(../../img/selfie.jpg)center;
+    background: url(../../img/pro-img1.jpg)top;
     background-size: cover;
+    background-position: 0 -1rem;
+    
 }
 
 .navNameContainer {}
@@ -71,11 +73,13 @@
     font-size: 24px;
     margin: 0;
     padding: 0;
-    font-weight: 600;
-    -moz-text-align-last: center;
+    font-weight: 300;
     text-align-last: center;
     font-family: "Poppins", sans-serif;
-    color: white;
+    background: linear-gradient(rgba(184, 184, 184, 0.5), rgba(0, 0, 0,1));
+    color: transparent;
+    background-clip: text;
+    text-decoration: overline .1rem rgba(184, 184, 184, 1);
 }
 
 .socailMediaContainer {
@@ -106,27 +110,32 @@
     animation: glowing 2s infinite;
 }
 
-.navLinkContainer {}
+.navLinkContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .navLink {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    padding-left: 2rem;
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 2em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 60px;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    text-align: center;
     color: rgb(73, 73, 73);
-    transition: color .2s ease-in-out, background-color 1s ease-in-out, border-color .15s ease-in-out;
+    transition: all .5s ease-in-out;
+    border-radius: 1rem;
+    width: 6rem;
+    justify-content: center;
 
 }
 
 .navLink:hover {
     color: rgb(255, 0, 0);
     cursor: pointer;
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.8);
+    transition: all .5s ease-in-out;
+    animation: glowing 2s infinite;
 }
 
 /* @media (max-width: 1199px) {

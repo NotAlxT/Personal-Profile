@@ -7,10 +7,10 @@ export default function About() {
             <div className='aboutContainer'>
 
                 <section className='aboutTitleBox'>
-                    <h1 className='aboutTitle left'>Birthday</h1>
+                    <h1 className='aboutTitle left'>Location</h1>
                     <div class="card card-1">
                         <div class="cardInfo">
-                            <span className="aboutTitleDes">January 25, 1996</span>
+                            <span className="aboutTitleDes">Boston, MA</span>
                         </div>
                     </div>
                 </section>
@@ -18,16 +18,16 @@ export default function About() {
                 <section className='aboutTitleBox'>
                     <div class="card card-2">
                         <div class="cardInfo">
-                            <span className="aboutTitleDes">About</span>
+                            <span className="aboutTitleDes">AnhNTran56@gmail.com</span>
                         </div>
-                    </div><h1 className='aboutTitle right'>test</h1>
+                    </div><h1 className='aboutTitle right'>Email</h1>
                 </section>
 
                 <section className='aboutTitleBox'>
-                    <h1 className='aboutTitle left'>test</h1>
+                    <h1 className='aboutTitle left'>Phone Number</h1>
                     <div class="card card-3">
                         <div class="cardInfo">
-                            <span className="aboutTitleDes">About</span>
+                            <span className="aboutTitleDes">(857) 271-8817</span>
                         </div>
                     </div>
                 </section>

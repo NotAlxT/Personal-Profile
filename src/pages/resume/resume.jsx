@@ -126,14 +126,15 @@ export default function Resume() {
               <h3 className='resumeTitleItems des1'>Languages & Tools</h3>
               <p className='resumeTitleItems des3'>
                 
-            <i class="devicon-html5-plain-wordmark colored"></i>Html |
-            <i class="devicon-css3-plain-wordmark colored"></i>Css |
-            <i class="devicon-javascript-plain colored"></i>JavaScript |
-            <i class="devicon-react-original-wordmark colored"></i>React |
-            <i class="devicon-python-plain-wordmark colored"></i>Python |
-            <i class="devicon-postgresql-plain-wordmark colored"></i>SQL |
+            <i class="devicon-html5-plain-wordmark colored"></i> Html | 
+            <i class="devicon-css3-plain-wordmark colored"></i> Css | 
+            <i class="devicon-javascript-plain colored"></i> JavaScript | 
+            <i class="devicon-react-original-wordmark colored"></i> React | 
+            <i class="devicon-python-plain-wordmark colored"></i> Python | 
+            <i class="devicon-postgresql-plain-wordmark colored"></i> SQL | 
             <br></br>
-            <i class="devicon-flask-original-wordmark"></i>Flask |
+            <i class="devicon-flask-original-wordmark"></i> Flask | 
+            <i class="devicon-nodejs-plain"></i> Node.js
           
                 </p>
             </div>

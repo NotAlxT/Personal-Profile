@@ -27,10 +27,11 @@
     justify-self: center;
     padding: 7rem 0 4rem 0;
     position: relative;
-    font-size: 3rem;
-    background-image: linear-gradient(45deg, rgb(236, 237, 238) 10%, rgb(0, 114, 245) 60%);
+    font-size: 4rem;
+    background: linear-gradient(-45deg, rgb(94, 94, 94)20%, rgb(255, 255, 255));
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    outline: white 1rem;
 
 }
 
@@ -56,7 +57,7 @@
 
 .resumeTitleHeading{
     padding-top: 2rem;
-    background-image: linear-gradient(45deg, rgb(236, 237, 238) 10%, rgb(0, 114, 245) 60%);
+    background: linear-gradient(-45deg, rgb(94, 94, 94)20%, rgb(255, 255, 255));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -70,11 +71,13 @@
     padding: 2rem 2rem 2rem 2rem;
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 3rem;
-    transition: .1s ease-in-out;
+    transition: .3s ease-in-out;
 }
 .resumeBoxD1:hover,.resumeBoxD2:hover,.resumeBoxD3:hover,.resumeBoxD4:hover {
     transform: scale(1.1);
-    transition: .1s ease-in-out;
+    transition: .3s ease-in-out;
+    box-shadow: .3rem .3rem 10px 5px rgba(148, 148, 148, 0.8);
+    animation: glowing 2s infinite;
 }
 
 .resumeBoxD1 {
