@@ -13,7 +13,7 @@ export default function Nav() {
         <div className='upperContainer'>
           <span className='outerProfileCircle'>
             <span className='innerProfileCircle'>
-              <img src={image1} alt="Profile Picture"></img>
+              <img src={image1} alt="Profile"/>
             </span>
           </span>
         </div>
