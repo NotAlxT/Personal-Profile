@@ -3,7 +3,7 @@ import '../portfolio/portfolio.css'
 import { Icon } from '@iconify/react';
 // import { motion } from 'framer-motion'
 // import images from '../../img/images'
-import { useRef, useEffect, useState } from 'react';
+import { useRef } from 'react';
 import image1 from '../../img/bg1.jpg'
 import image2 from '../../img/bg2.jpg'
 import image3 from '../../img/bg3.jpg'

@@ -22,12 +22,12 @@ export default function Nav() {
         </div>
         <div className='socailMediaContainer'>
           <span className='socialMediaTag'>
-            <a href="https://www.linkedin.com/in/notalxt/" target='_blank'>
+            <a href="https://www.linkedin.com/in/notalxt/" target='_blank' rel="noreferrer">
               <img src={LinkedInImage} alt="LinkedIn" />
             </a>
           </span>
           <span className='socialMediaTag'>
-            <a href="https://github.com/NotAlxT" target='_blank'>
+            <a href="https://github.com/NotAlxT" target='_blank' rel="noreferrer">
               <img src={GitHubImage} alt="GitHub" />
             </a>
           </span>
