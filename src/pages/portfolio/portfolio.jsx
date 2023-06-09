@@ -47,24 +47,24 @@ export default function Portfolio() {
           <div className="portfolioSlider" ref={sliderContainerRef} onScroll={handleScrollEnd}>
 
             <div className="sliderChild">
-              <img className="sliderImg" src={image1}></img>
+              <img className="sliderImg" src={image1} alt='SliderImg'></img>
               <div className="sliderDes">hello im here</div>
             </div>
 
             <div className="sliderChild">
-              <img className="sliderImg " src={image2}></img>
+              <img className="sliderImg " src={image2} alt='SliderImg'></img>
               <div className="sliderDes">des</div>
             </div>
             <div className="sliderChild">
-              <img className="sliderImg " src={image3}></img>
+              <img className="sliderImg " src={image3} alt='SliderImg'></img>
               <div className="sliderDes">des</div>
             </div>
             <div className="sliderChild">
-              <img className="sliderImg " src={image1}></img>
+              <img className="sliderImg " src={image1} alt='SliderImg'></img>
               <div className="sliderDes">des</div>
             </div>
             <div className="sliderChild">
-              <img className="sliderImg " src={image2}></img>
+              <img className="sliderImg " src={image2} alt='SliderImg'></img>
               <div className="sliderDes">des</div>
             </div>
       

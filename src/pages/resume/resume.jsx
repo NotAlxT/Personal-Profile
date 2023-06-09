@@ -62,12 +62,6 @@ export default function Resume() {
                 </ul>
               </p>
             </div>
-            {/* <div className="resumeDes2">
-              <h3 className='resumeTitleItems des1'>Project Name</h3>
-              <p className='resumeTitleItems des2'>date</p>
-              <p className='resumeTitleItems des3'>des</p>
-              <p className='resumeTitleItems des4'>Points</p>
-            </div> */}
           </div>
 
           <div className="resumeBox3">
@@ -138,16 +132,7 @@ export default function Resume() {
           
                 </p>
             </div>
-            {/* <div className="skillItems">
-              <h3 className='resumeTitleItems des1'>Skill Name</h3>
-              <p className='resumeTitleItems des3'>des</p>
-              <p className='resumeTitleItems des4'>Points</p>
-            </div>
-            <div className="skillItems">
-              <h3 className='resumeTitleItems des1'>Skill Name</h3>
-              <p className='resumeTitleItems des3'>des</p>
-              <p className='resumeTitleItems des4'>Points</p>
-            </div> */}
+      
           </div>
         </section>
 
