@@ -8,13 +8,19 @@
   padding-top: 10rem;
   padding-bottom: 10rem;
   justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 .aboutContainer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.ah1{
+  color: #f7ba2b;
+  position: absolute;
+  left: 10rem
 }
 
 .aboutTitleBox{

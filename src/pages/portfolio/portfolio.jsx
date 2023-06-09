@@ -41,7 +41,7 @@ export default function Portfolio() {
   }
 
   return (
-      <div className="portfolioContainer" id='portfolio'>
+      <div className="portfolioContainer" id='portfolio'><h1 className='ph1'>Portfolio</h1>
         <btn className="sliderLeft" onClick={scrollSliderLeft}><Icon className='sliderIcon' icon="ep:arrow-left" /></btn>
         <div className="portfolioMainContainer">
           <div className="portfolioSlider" ref={sliderContainerRef} onScroll={handleScrollEnd}>

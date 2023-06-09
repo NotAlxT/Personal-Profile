@@ -6,7 +6,7 @@
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 100vh;position: relative;
 }
 
 .portfolioMainContainer {
@@ -17,6 +17,16 @@
     width: 80%;
     border-radius: 10%;
     overflow-x: hidden;
+    
+}
+
+.ph1{
+    position: absolute;
+    top: 1rem;
+    left: 18.5rem;
+    background: linear-gradient(-45deg, rgba(255, 0, 0, 0.4),rgba(0,0,0,1), rgb(0, 0, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .portfolioSlider {
