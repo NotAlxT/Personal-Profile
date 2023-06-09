@@ -7,7 +7,6 @@ import { useRef, useEffect, useState } from 'react';
 import image1 from '../../img/bg1.jpg'
 import image2 from '../../img/bg2.jpg'
 import image3 from '../../img/bg3.jpg'
-import image4 from '../../img/image1.png'
 
 export default function Portfolio() {
 
@@ -33,7 +32,7 @@ export default function Portfolio() {
 
   const handleScrollEnd = () => {
     const tabsList = sliderContainerRef.current;
-    if (tabsList.scrollLeft + tabsList.clientWidth >= tabsList.scrollWidth) {
+    if (tabsList.scrollLeft + tabsList.clientWidth > tabsList.scrollWidth) {
       tabsList.scrollTo({
         left: 0,
         behavior: 'smooth',
@@ -61,7 +60,7 @@ export default function Portfolio() {
               <div className="sliderDes">des</div>
             </div>
             <div className="sliderChild">
-              <img className="sliderImg " src={image4}></img>
+              <img className="sliderImg " src={image1}></img>
               <div className="sliderDes">des</div>
             </div>
             <div className="sliderChild">

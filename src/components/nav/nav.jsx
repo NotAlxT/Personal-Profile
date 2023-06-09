@@ -4,8 +4,6 @@ import './nav.css'
 import LinkedInImage from '../../img/LinkedInImg.png'
 import GitHubImage from '../../img/Github.png'
 import { Icon } from '@iconify/react';
-import Selfie from '../../img/selfie.jpg'
-
 
 export default function Nav() {
   return (
