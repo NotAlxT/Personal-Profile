@@ -1,6 +1,5 @@
 import React from 'react'
 import '../about/about.css'
-import LinkedInImage from '../../img/LinkedInImg.png'
 
 export default function About() {
     return (
@@ -47,7 +46,7 @@ export default function About() {
                     <div class="card card-5">
                         <div class="cardInfo">
                             <span className="aboutTitleDes">
-                                <a href="https://github.com/NotAlxT/Personal-Profile" target='_blank'>Click me for code
+                                <a href="https://github.com/NotAlxT/Personal-Profile" target='_blank' rel="noreferrer">Click me for code
                                 </a>
                             </span>
                         </div>
