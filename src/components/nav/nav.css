@@ -57,17 +57,21 @@
     align-items: center;
 }
 
-.innerProfileCircle {
+.innerProfileCircle img {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    background: url(../../img/pro-img1.jpg)top;
-    background-size: cover;
-    background-position: 0 -1rem;
+    object-fit: cover;
+    object-position: 0 -1rem;
+    /* background-size: contain;
+    background-position: 0 -1rem; */
     
+}
+.innerProfileCircle img{
+
 }
 
 .navNameContainer {}
@@ -98,7 +102,6 @@
     width: 40px;
     border-radius: 100%;
     margin: 0 10px;
-    
 }
 
 .socialMediaTag img {

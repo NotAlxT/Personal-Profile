@@ -3,6 +3,7 @@ import './nav.css'
 import LinkedInImage from '../../img/LinkedInImg.png'
 import GitHubImage from '../../img/Github.png'
 import { Icon } from '@iconify/react';
+import image1 from '../../img/pro-img1.jpg'
 
 export default function Nav() {
   return (
@@ -12,7 +13,7 @@ export default function Nav() {
         <div className='upperContainer'>
           <span className='outerProfileCircle'>
             <span className='innerProfileCircle'>
-              <img alt="Profile Picture"/>
+              <img src={image1} alt="Profile Picture"></img>
             </span>
           </span>
         </div>
