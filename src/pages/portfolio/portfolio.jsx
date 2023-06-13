@@ -53,7 +53,7 @@ export default function Portfolio() {
             <img className="sliderImg" src={image1} alt='SliderImg'></img>
             <div className="sliderDes">
               <h1>2AM</h1>
-              <p>2AM is an e-commerce website with social interaction, designed and developed by a team of three.</p>
+              <p>2AM is an e-commerce website with social interaction, designed and developed by small team.</p>
             </div>
           </div>
 
