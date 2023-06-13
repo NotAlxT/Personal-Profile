@@ -96,8 +96,8 @@ export default function Portfolio() {
             <img className="sliderImg " src={image1} alt='SliderImg'></img>
             <div className="sliderDes">
             <h1>2AM</h1>
-            <a href="https://github.com/NotAlxT/2AM-group-project" target='_blank' rel="noreferrer"><p>Frontend Code</p></a>
-            <a href="https://github.com/NotAlxT/2AM-BackEnd-Group-Project" target='_blank' rel="noreferrer"><p>Backend Code</p></a>
+            <a href="https://github.com/NotAlxT/2AM-group-project" target='_blank' rel="noreferrer"><p>Front-End Code</p></a>
+            <a href="https://github.com/NotAlxT/2AM-BackEnd-Group-Project" target='_blank' rel="noreferrer"><p>Back-End Code</p></a>
             </div>
           </div>
 
